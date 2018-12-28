@@ -1,7 +1,11 @@
 # Docker_Flask
 Files per creare una Docker image con tensorflow-gpu e Flask
 
+Installare Docker
+
 Per creare la Docker image clonare la repository e dalla cartella Docker_Flask eseguire il comando "docker build -t nome_immagine ."
+
+Per eseguire l'immagine eseguire il comando "docker run -p 4000:80 nome_immagine"
 
 app.py: carica la rete addestrata a fare crowd counting e crea il web service Flask. Quando arriva una richiesta HTTP POST usa la rete per fare la predizione e restituisce il conteggio.
 
