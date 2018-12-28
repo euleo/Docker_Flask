@@ -1,5 +1,5 @@
 # Docker_Flask
-Files per creare una Docker image con tensorflow-gpu e Flask
+Files per creare una Docker image con tensorflow-gpu (che include Python 3.5) e Flask
 
 1) Installare Docker
 
