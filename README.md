@@ -4,3 +4,9 @@ app.py: carica la rete addestrata a fare crowd counting e crea il web service Fl
 Dockerfile: definisce cosa va nel container (creato a partire dalla Docker image tensorflow/tensorflow:latest-gpu-py3).
 
 requirements.txt: usato dal Dockerfile per installare i requisiti necessari (Flask).
+
+test_model.h5:
+
+test_model.json: 
+
+Per creare l'immagine Docker clonare la repository e dalla cartella Docker_Flask eseguire il comando "docker build -t nome_immagine ."
