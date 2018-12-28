@@ -7,6 +7,8 @@ Files per creare una Docker image con tensorflow-gpu e Flask
 
 3) Per eseguire l'immagine eseguire il comando "docker run -p 4000:80 nome_immagine"
 
+4) Esempio di richiesta: curl -X POST -F image=@image_name.jpg http://127.0.0.1:4000
+
 app.py: carica la rete addestrata a fare crowd counting e crea il web service Flask. Quando arriva una richiesta HTTP POST usa la rete per fare la predizione e restituisce il conteggio.
 
 Dockerfile: definisce cosa va nel container (creato a partire dalla Docker image tensorflow/tensorflow:latest-gpu-py3).
